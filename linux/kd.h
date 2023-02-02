@@ -1,5 +1,6 @@
 #ifndef _LINUX_KD_H
 #define _LINUX_KD_H
+#if 0
 #include <linux/types.h>
 
 
@@ -180,4 +181,5 @@ struct console_font {
    don't reuse for the time being */
 /* note: 0x4B60-0x4B6D, 0x4B70-0x4B72 used above */
 
+#endif /* 0 */
 #endif /* _LINUX_KD_H */

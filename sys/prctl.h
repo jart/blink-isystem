@@ -1,5 +1,6 @@
 #ifndef _SYS_PRCTL_H
 #define _SYS_PRCTL_H
+#if 0
 
 #ifdef __cplusplus
 extern "C" {
@@ -136,4 +137,5 @@ int prctl (int, ...);
 }
 #endif
 
+#endif /* #if 0 */
 #endif

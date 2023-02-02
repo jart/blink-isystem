@@ -1,6 +1,6 @@
 #ifndef _LINUX_SECCOMP_H
 #define _LINUX_SECCOMP_H
-
+#if 0
 
 #include <linux/types.h>
 
@@ -51,4 +51,5 @@ struct seccomp_data {
 	__u64 args[6];
 };
 
+#endif /* #if 0 */
 #endif /* _LINUX_SECCOMP_H */

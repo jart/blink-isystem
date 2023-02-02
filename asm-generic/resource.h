@@ -30,22 +30,23 @@
 # define RLIMIT_NOFILE		7	/* max number of open files */
 #endif
 
-#ifndef RLIMIT_MEMLOCK
-# define RLIMIT_MEMLOCK		8	/* max locked-in-memory address space */
-#endif
+/* #ifndef RLIMIT_MEMLOCK */
+/* # define RLIMIT_MEMLOCK		8	/\* max locked-in-memory address space *\/ */
+/* #endif */
 
 #ifndef RLIMIT_AS
 # define RLIMIT_AS		9	/* address space limit */
 #endif
 
-#define RLIMIT_LOCKS		10	/* maximum file locks held */
-#define RLIMIT_SIGPENDING	11	/* max number of pending signals */
-#define RLIMIT_MSGQUEUE		12	/* maximum bytes in POSIX mqueues */
-#define RLIMIT_NICE		13	/* max nice prio allowed to raise to
-					   0-39 for nice level 19 .. -20 */
-#define RLIMIT_RTPRIO		14	/* maximum realtime priority */
-#define RLIMIT_RTTIME		15	/* timeout for RT tasks in us */
-#define RLIM_NLIMITS		16
+/* #define RLIMIT_LOCKS		10	/\* maximum file locks held *\/ */
+/* #define RLIMIT_SIGPENDING	11	/\* max number of pending signals *\/ */
+/* #define RLIMIT_MSGQUEUE		12	/\* maximum bytes in POSIX mqueues *\/ */
+/* #define RLIMIT_NICE		13	/\* max nice prio allowed to raise to */
+/* 					   0-39 for nice level 19 .. -20 *\/ */
+/* #define RLIMIT_RTPRIO		14	/\* maximum realtime priority *\/ */
+/* #define RLIMIT_RTTIME		15	/\* timeout for RT tasks in us *\/ */
+/* #define RLIM_NLIMITS		16 */
+#define RLIM_NLIMITS		10
 
 /*
  * SuS says limits have to be unsigned.

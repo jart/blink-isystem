@@ -23,7 +23,7 @@
 #define SIGPIPE		13
 #define SIGALRM		14
 #define SIGTERM		15
-#define SIGSTKFLT	16
+/* #define SIGSTKFLT	16 */
 #define SIGCHLD		17
 #define SIGCONT		18
 #define SIGSTOP		19

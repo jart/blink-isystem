@@ -43,9 +43,9 @@
 #ifndef FASYNC
 #define FASYNC		00020000	/* fcntl, for BSD compatibility */
 #endif
-#ifndef O_DIRECT
-#define O_DIRECT	00040000	/* direct disk access hint */
-#endif
+/* #ifndef O_DIRECT */
+/* #define O_DIRECT	00040000	/\* direct disk access hint *\/ */
+/* #endif */
 #ifndef O_LARGEFILE
 #define O_LARGEFILE	00100000
 #endif
@@ -55,9 +55,9 @@
 #ifndef O_NOFOLLOW
 #define O_NOFOLLOW	00400000	/* don't follow links */
 #endif
-#ifndef O_NOATIME
-#define O_NOATIME	01000000
-#endif
+/* #ifndef O_NOATIME */
+/* #define O_NOATIME	01000000 */
+/* #endif */
 #ifndef O_CLOEXEC
 #define O_CLOEXEC	02000000	/* set close_on_exec */
 #endif
@@ -128,9 +128,9 @@
 #define F_GETOWN_EX	16
 #endif
 
-#ifndef F_GETOWNER_UIDS
-#define F_GETOWNER_UIDS	17
-#endif
+/* #ifndef F_GETOWNER_UIDS */
+/* #define F_GETOWNER_UIDS	17 */
+/* #endif */
 
 /*
  * Open File Description Locks
@@ -144,9 +144,9 @@
  * locks, and they are only released automatically when the last reference to
  * the the open file against which they were acquired is put.
  */
-#define F_OFD_GETLK	36
-#define F_OFD_SETLK	37
-#define F_OFD_SETLKW	38
+/* #define F_OFD_GETLK	36 */
+/* #define F_OFD_SETLK	37 */
+/* #define F_OFD_SETLKW	38 */
 
 #define F_OWNER_TID	0
 #define F_OWNER_PID	1

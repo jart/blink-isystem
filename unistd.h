@@ -158,9 +158,9 @@ unsigned ualarm(unsigned, unsigned);
 #define L_XTND 2
 int brk(void *);
 void *sbrk(intptr_t);
-pid_t vfork(void);
+/* pid_t vfork(void); */
 int vhangup(void);
-int chroot(const char *);
+/* int chroot(const char *); */
 int getpagesize(void);
 int getdtablesize(void);
 int sethostname(const char *, size_t);
@@ -173,7 +173,7 @@ void setusershell(void);
 void endusershell(void);
 char *getusershell(void);
 int acct(const char *);
-long syscall(long, ...);
+/* long syscall(long, ...); */
 int execvpe(const char *, char *const [], char *const []);
 int issetugid(void);
 #endif

@@ -1,5 +1,6 @@
 #ifndef _SYS_TIMERFD_H
 #define _SYS_TIMERFD_H
+#if 0
 
 #ifdef __cplusplus
 extern "C" {
@@ -24,4 +25,5 @@ int timerfd_gettime(int, struct itimerspec *);
 }
 #endif
 
+#endif /* #if 0 */
 #endif

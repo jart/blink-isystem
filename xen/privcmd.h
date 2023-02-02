@@ -32,6 +32,7 @@
 
 #ifndef __LINUX_PUBLIC_PRIVCMD_H__
 #define __LINUX_PUBLIC_PRIVCMD_H__
+#if 0
 
 #include <linux/types.h>
 
@@ -99,4 +100,5 @@ struct privcmd_mmapbatch_v2 {
 #define IOCTL_PRIVCMD_MMAPBATCH_V2				\
 	_IOC(_IOC_NONE, 'P', 4, sizeof(struct privcmd_mmapbatch_v2))
 
+#endif /* #if 0 */
 #endif /* __LINUX_PUBLIC_PRIVCMD_H__ */

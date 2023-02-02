@@ -1,5 +1,6 @@
 #ifndef _SYS_MTIO_H
 #define _SYS_MTIO_H
+#if 0
 
 #include <sys/types.h>
 #include <sys/ioctl.h>
@@ -185,4 +186,5 @@ struct mtconfiginfo  {
 # define DEFTAPE	"/dev/tape"
 #endif
 
+#endif /* #if 0 */
 #endif

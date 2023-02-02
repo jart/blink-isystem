@@ -1,5 +1,6 @@
 #ifndef _GENERIC_STATFS_H
 #define _GENERIC_STATFS_H
+#if 0
 
 #include <linux/types.h>
 
@@ -80,4 +81,5 @@ struct compat_statfs64 {
 	__u32 f_spare[4];
 } ARCH_PACK_COMPAT_STATFS64;
 
+#endif /* #if 0 */
 #endif /* _GENERIC_STATFS_H */

@@ -27,8 +27,8 @@
 #define TCSBRK		0x5409
 #define TCXONC		0x540A
 #define TCFLSH		0x540B
-#define TIOCEXCL	0x540C
-#define TIOCNXCL	0x540D
+/* #define TIOCEXCL	0x540C */
+/* #define TIOCNXCL	0x540D */
 #define TIOCSCTTY	0x540E
 #define TIOCGPGRP	0x540F
 #define TIOCSPGRP	0x5410
@@ -40,8 +40,8 @@
 #define TIOCMBIS	0x5416
 #define TIOCMBIC	0x5417
 #define TIOCMSET	0x5418
-#define TIOCGSOFTCAR	0x5419
-#define TIOCSSOFTCAR	0x541A
+/* #define TIOCGSOFTCAR	0x5419 */
+/* #define TIOCSSOFTCAR	0x541A */
 #define FIONREAD	0x541B
 #define TIOCINQ		FIONREAD
 #define TIOCLINUX	0x541C
@@ -80,19 +80,19 @@
 
 #define FIONCLEX	0x5450
 #define FIOCLEX		0x5451
-#define FIOASYNC	0x5452
-#define TIOCSERCONFIG	0x5453
-#define TIOCSERGWILD	0x5454
-#define TIOCSERSWILD	0x5455
-#define TIOCGLCKTRMIOS	0x5456
-#define TIOCSLCKTRMIOS	0x5457
-#define TIOCSERGSTRUCT	0x5458 /* For debugging only */
-#define TIOCSERGETLSR   0x5459 /* Get line status register */
-#define TIOCSERGETMULTI 0x545A /* Get multiport config  */
-#define TIOCSERSETMULTI 0x545B /* Set multiport config */
+/* #define FIOASYNC	0x5452 */
+/* #define TIOCSERCONFIG	0x5453 */
+/* #define TIOCSERGWILD	0x5454 */
+/* #define TIOCSERSWILD	0x5455 */
+/* #define TIOCGLCKTRMIOS	0x5456 */
+/* #define TIOCSLCKTRMIOS	0x5457 */
+/* #define TIOCSERGSTRUCT	0x5458 /\* For debugging only *\/ */
+/* #define TIOCSERGETLSR   0x5459 /\* Get line status register *\/ */
+/* #define TIOCSERGETMULTI 0x545A /\* Get multiport config  *\/ */
+/* #define TIOCSERSETMULTI 0x545B /\* Set multiport config *\/ */
 
-#define TIOCMIWAIT	0x545C	/* wait for a change on serial input line(s) */
-#define TIOCGICOUNT	0x545D	/* read serial port __inline__ interrupt counts */
+/* #define TIOCMIWAIT	0x545C	/\* wait for a change on serial input line(s) *\/ */
+/* #define TIOCGICOUNT	0x545D	/\* read serial port __inline__ interrupt counts *\/ */
 
 /*
  * Some arches already define FIOQSIZE due to a historical

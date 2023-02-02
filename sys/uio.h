@@ -37,8 +37,8 @@ ssize_t pwritev (int, const struct iovec *, int, off_t);
 #endif
 
 #ifdef _GNU_SOURCE
-ssize_t process_vm_writev(pid_t, const struct iovec *, unsigned long, const struct iovec *, unsigned long, unsigned long);
-ssize_t process_vm_readv(pid_t, const struct iovec *, unsigned long, const struct iovec *, unsigned long, unsigned long);
+/* ssize_t process_vm_writev(pid_t, const struct iovec *, unsigned long, const struct iovec *, unsigned long, unsigned long); */
+/* ssize_t process_vm_readv(pid_t, const struct iovec *, unsigned long, const struct iovec *, unsigned long, unsigned long); */
 #endif
 
 #ifdef __cplusplus

@@ -1,5 +1,6 @@
 #ifndef _UVESAFB_H
 #define _UVESAFB_H
+#if 0
 
 #include <linux/types.h>
 
@@ -57,4 +58,5 @@ struct vbe_ib {
 	char  misc_data[512];
 } __attribute__ ((packed));
 
+#endif /* #if 0 */
 #endif /* _UVESAFB_H */

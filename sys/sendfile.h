@@ -1,5 +1,6 @@
 #ifndef _SYS_SENDFILE_H
 #define _SYS_SENDFILE_H
+#if 0
 
 #ifdef __cplusplus
 extern "C" {
@@ -19,4 +20,5 @@ ssize_t sendfile(int, int, off_t *, size_t);
 }
 #endif
 
+#endif /* #if 0 */
 #endif

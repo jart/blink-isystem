@@ -104,7 +104,7 @@ typedef struct __ucontext {
 } ucontext_t;
 
 #define SA_NOCLDSTOP  1
-#define SA_NOCLDWAIT  2
+/* #define SA_NOCLDWAIT  2 */
 #define SA_SIGINFO    4
 #define SA_ONSTACK    0x08000000
 #define SA_RESTART    0x10000000
@@ -130,7 +130,7 @@ typedef struct __ucontext {
 #define SIGPIPE   13
 #define SIGALRM   14
 #define SIGTERM   15
-#define SIGSTKFLT 16
+/* #define SIGSTKFLT 16 */
 #define SIGCHLD   17
 #define SIGCONT   18
 #define SIGSTOP   19

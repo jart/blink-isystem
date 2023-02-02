@@ -1,5 +1,7 @@
 #ifndef _SYS_REBOOT_H
 #define _SYS_REBOOT_H
+#if 0
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -17,4 +19,6 @@ int reboot(int);
 #ifdef __cplusplus
 }
 #endif
+
+#endif /* #if 0 */
 #endif

@@ -1,5 +1,7 @@
 #ifndef	_SYS_IO_H
 #define	_SYS_IO_H
+#if 0
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -14,4 +16,6 @@ int ioperm(unsigned long, unsigned long, int);
 #ifdef __cplusplus
 }
 #endif
+
+#endif /* #if 0 */
 #endif

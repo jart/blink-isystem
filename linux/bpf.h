@@ -6,6 +6,7 @@
  */
 #ifndef __LINUX_BPF_H__
 #define __LINUX_BPF_H__
+#if 0
 
 #include <linux/types.h>
 #include <linux/bpf_common.h>
@@ -298,4 +299,5 @@ struct bpf_tunnel_key {
 	__u32 remote_ipv4;
 };
 
+#endif /* #if 0 */
 #endif /* __LINUX_BPF_H__ */

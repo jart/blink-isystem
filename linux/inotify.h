@@ -6,6 +6,7 @@
 
 #ifndef _LINUX_INOTIFY_H
 #define _LINUX_INOTIFY_H
+#if 0
 
 /* For O_CLOEXEC and O_NONBLOCK */
 #include <linux/fcntl.h>
@@ -71,4 +72,5 @@ struct inotify_event {
 #define IN_NONBLOCK O_NONBLOCK
 
 
+#endif /* #if 0 */
 #endif /* _LINUX_INOTIFY_H */

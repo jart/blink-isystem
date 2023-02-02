@@ -1,5 +1,6 @@
 #ifndef _SYS_QUOTA_H
 #define _SYS_QUOTA_H
+#if 0
 
 #ifdef __cplusplus
 extern "C" {
@@ -99,4 +100,5 @@ int quotactl(int, const char *, int, char *);
 }
 #endif
 
+#endif /* #if 0 */
 #endif

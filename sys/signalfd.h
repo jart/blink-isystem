@@ -1,5 +1,6 @@
 #ifndef _SYS_SIGNALFD_H
 #define _SYS_SIGNALFD_H
+#if 0
 
 #ifdef __cplusplus
 extern "C" {
@@ -42,4 +43,5 @@ struct signalfd_siginfo {
 }
 #endif
 
+#endif /* #if 0 */
 #endif

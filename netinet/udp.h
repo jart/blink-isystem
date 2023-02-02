@@ -22,8 +22,8 @@ struct udphdr {
 	uint16_t uh_sum;
 };
 
-#define UDP_CORK	1
-#define UDP_ENCAP	100
+/* #define UDP_CORK	1 */
+/* #define UDP_ENCAP	100 */
 
 #define UDP_ENCAP_ESPINUDP_NON_IKE 1
 #define UDP_ENCAP_ESPINUDP	2

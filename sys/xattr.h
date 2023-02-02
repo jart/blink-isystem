@@ -1,5 +1,7 @@
 #ifndef	_SYS_XATTR_H
 #define	_SYS_XATTR_H
+#if 0
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -29,4 +31,6 @@ int fremovexattr(int, const char *);
 #ifdef __cplusplus
 }
 #endif
+
+#endif /* 0 */
 #endif

@@ -33,7 +33,7 @@ typedef unsigned long sigset_t;
 #define SIGPIPE		13
 #define SIGALRM		14
 #define SIGTERM		15
-#define SIGSTKFLT	16
+/* #define SIGSTKFLT	16 */
 #define SIGCHLD		17
 #define SIGCONT		18
 #define SIGSTOP		19
@@ -73,7 +73,7 @@ typedef unsigned long sigset_t;
  * Unix names RESETHAND and NODEFER respectively.
  */
 #define SA_NOCLDSTOP	0x00000001u
-#define SA_NOCLDWAIT	0x00000002u
+/* #define SA_NOCLDWAIT	0x00000002u */
 #define SA_SIGINFO	0x00000004u
 #define SA_ONSTACK	0x08000000u
 #define SA_RESTART	0x10000000u

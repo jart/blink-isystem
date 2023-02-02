@@ -1,5 +1,6 @@
 #ifndef	_SYS_EPOLL_H
 #define	_SYS_EPOLL_H
+#if 0
 
 #ifdef __cplusplus
 extern "C" {
@@ -65,4 +66,5 @@ int epoll_pwait(int, struct epoll_event *, int, int, const sigset_t *);
 }
 #endif
 
+#endif /* #if 0 */
 #endif /* sys/epoll.h */

@@ -4,7 +4,7 @@
 
 #ifndef __LINUX_FILTER_H__
 #define __LINUX_FILTER_H__
-
+#if 0
 
 #include <linux/types.h>
 #include <linux/bpf_common.h>
@@ -86,4 +86,5 @@ struct sock_fprog {	/* Required for SO_ATTACH_FILTER. */
 #define BPF_NET_OFF	SKF_NET_OFF
 #define BPF_LL_OFF	SKF_LL_OFF
 
+#endif /* #if 0 */
 #endif /* __LINUX_FILTER_H__ */

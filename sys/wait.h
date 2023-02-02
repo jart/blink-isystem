@@ -23,7 +23,7 @@ pid_t waitpid (pid_t, int *, int );
  || defined(_XOPEN_SOURCE) || defined(_GNU_SOURCE) \
  || defined(_BSD_SOURCE)
 #include <signal.h>
-int waitid (idtype_t, id_t, siginfo_t *, int);
+/* int waitid (idtype_t, id_t, siginfo_t *, int); */
 #endif
 
 #if defined(_GNU_SOURCE) || defined(_BSD_SOURCE)
@@ -40,9 +40,9 @@ pid_t wait4 (pid_t, int *, int, struct rusage *);
 #define WCONTINUED 8
 #define WNOWAIT    0x1000000
 
-#define __WNOTHREAD 0x20000000
-#define __WALL      0x40000000
-#define __WCLONE    0x80000000
+/* #define __WNOTHREAD 0x20000000 */
+/* #define __WALL      0x40000000 */
+/* #define __WCLONE    0x80000000 */
 
 #define WEXITSTATUS(s) (((s) & 0xff00) >> 8)
 #define WTERMSIG(s) ((s) & 0x7f)

@@ -18,6 +18,8 @@
 
 #ifndef _LINUX_BTRFS_H
 #define _LINUX_BTRFS_H
+#if 0
+
 #include <linux/types.h>
 #include <linux/ioctl.h>
 
@@ -660,4 +662,5 @@ static __inline__ char *btrfs_err_str(enum btrfs_err_code err_code)
 #define BTRFS_IOC_GET_SUPPORTED_FEATURES _IOR(BTRFS_IOCTL_MAGIC, 57, \
 				   struct btrfs_ioctl_feature_flags[3])
 
+#endif /* #if 0 */
 #endif /* _LINUX_BTRFS_H */

@@ -1,5 +1,6 @@
 #ifndef _MQUEUE_H
 #define _MQUEUE_H
+#if 0
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -33,4 +34,5 @@ int mq_unlink(const char *);
 #ifdef __cplusplus
 }
 #endif
+#endif /* 0 */
 #endif

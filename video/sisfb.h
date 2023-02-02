@@ -20,6 +20,7 @@
 
 #ifndef _LINUX_SISFB_H_
 #define _LINUX_SISFB_H_
+#if 0
 
 #include <linux/types.h>
 #include <asm/ioctl.h>
@@ -206,4 +207,5 @@ struct sis_memreq {
 /**********************************************/
 
 
+#endif /* #if 0 */
 #endif /* _LINUX_SISFB_H_ */

@@ -32,6 +32,7 @@
 
 #ifndef __LINUX_PUBLIC_EVTCHN_H__
 #define __LINUX_PUBLIC_EVTCHN_H__
+#if 0
 
 /*
  * Bind a fresh port to VIRQ @virq.
@@ -85,4 +86,5 @@ struct ioctl_evtchn_notify {
 #define IOCTL_EVTCHN_RESET				\
 	_IOC(_IOC_NONE, 'E', 5, 0)
 
+#endif /* #if 0 */
 #endif /* __LINUX_PUBLIC_EVTCHN_H__ */

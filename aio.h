@@ -1,5 +1,6 @@
 #ifndef _AIO_H
 #define _AIO_H
+#if 0
 
 #ifdef __cplusplus
 extern "C" {
@@ -66,4 +67,5 @@ int lio_listio(int, struct aiocb *__restrict const *__restrict, int, struct sige
 }
 #endif
 
+#endif /* 0 */
 #endif

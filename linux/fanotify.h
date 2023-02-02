@@ -1,5 +1,6 @@
 #ifndef _LINUX_FANOTIFY_H
 #define _LINUX_FANOTIFY_H
+#if 0
 
 #include <linux/types.h>
 
@@ -113,4 +114,5 @@ struct fanotify_response {
 				(long)(meta)->event_len >= (long)FAN_EVENT_METADATA_LEN && \
 				(long)(meta)->event_len <= (long)(len))
 
+#endif /* #if 0 */
 #endif /* _LINUX_FANOTIFY_H */

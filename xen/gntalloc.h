@@ -10,6 +10,7 @@
 
 #ifndef __LINUX_PUBLIC_GNTALLOC_H__
 #define __LINUX_PUBLIC_GNTALLOC_H__
+#if 0
 
 #include <linux/types.h>
 
@@ -81,4 +82,5 @@ struct ioctl_gntalloc_unmap_notify {
 /* Send an interrupt on the indicated event channel */
 #define UNMAP_NOTIFY_SEND_EVENT 0x2
 
+#endif /* #if 0 */
 #endif /* __LINUX_PUBLIC_GNTALLOC_H__ */
