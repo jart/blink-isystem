@@ -25,7 +25,8 @@ Autotools projects can then be configured as follows:
 
 ```
 ./configure CFLAGS="-isystem $HOME/blink-isystem" \
-            CXXFLAGS="-isystem $HOME/blink-isystem"
+            CXXFLAGS="-isystem $HOME/blink-isystem" \
+            LDFLAGS="-static"
 make -j
 ```
 
